@@ -1,0 +1,48 @@
+button{
+    width:150px;
+    height:40px;
+    background-color: aquamarine;
+    color:deeppink;
+    border:2px solid red;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: crimson;
+}
+#para{
+    font-family: 'Kolker Brush', cursive;
+    font-size: 25px;
+}
+#container{
+    width:150px;
+    height:100px;
+    background-color: aquamarine;
+    transition:width 3s;
+}
+#container:hover{
+    width:250px;
+}
+#container2{
+    width:150px;
+    height:100px;
+    background-color:crimson;
+    border-radius: 50%;}
+    * {
+        box-sizing: border-box;
+      }
+      .column {
+        float: left;
+        width: 25%;
+        padding: 20px;
+      }
+      @media screen and (max-width: 992px) {
+        .column {
+          width: 50%;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      
